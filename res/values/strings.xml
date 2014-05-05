@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FloatFrame</string>
+    <string name="float_frame_example">Float Frame Example</string>
+    <string name="each_child_can_delay">each child can delay</string>
+    <string name="providing_neat_effect">providing neat effect</string>
+    <string name="also_be_grouped">also can be grouped</string>
+    <string name="linear_relative">using Linear layouts</string>
+    <integer name="slideDuration">1000</integer>
+    <integer name="fadeDuration">900</integer>
+</resources>

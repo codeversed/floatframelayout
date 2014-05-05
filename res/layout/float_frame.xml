@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.codeversed.example.floatframe.FloatFrameLayout
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.codeversed.example.floatframe"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_gravity="center"
+              app:floatFrameSlideDuration="@integer/slideDuration"
+              app:floatFrameFadeDuration="@integer/fadeDuration"
+        >
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/float_frame_example"
+            android:layout_gravity="center"
+            android:textSize="28sp"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/each_child_can_delay"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textSize="28sp"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/providing_neat_effect"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:textSize="28sp"
+            />
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="140dp"
+                  android:orientation="vertical"
+            >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/also_be_grouped"
+                    android:layout_gravity="center"
+                    android:textSize="28sp"
+                    />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/linear_relative"
+                    android:layout_gravity="center"
+                    android:textSize="28sp"
+                    />
+    </LinearLayout>
+
+</com.codeversed.example.floatframe.FloatFrameLayout>
+
